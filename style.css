@@ -119,11 +119,13 @@ body{
 }
 
 /* -- HEADER -- */
-img.iwl-logo {
-	max-width: 100px;
-	margin-top: 2%;
-	margin-left: 20%;
-	max-height:100px;
+img.uf-logo {
+	max-width: 150px;
+/*	margin-top: 2%;*/
+  margin-left: -4.5%;
+	max-height:125px;
+  padding:8%;
+  background-color:#f37022;
 }
 div#site-nav {
 	margin-top: 14px;
@@ -140,34 +142,7 @@ div#social-nav {
 }
 
 /* -- HOME PAGE -- */
-.ignite {
-	font-size: 6em;
-	text-align: right;
-	color: #00529b;
-	opacity: .5;
-	line-height: .8;
-}
 
-.top-icons {
-	margin-left: 10%;
-}
-
-.bottom-icons {
-	margin-left: 15%;
-}
-
-ul.slick-dots {
-    display: none !important;
-}
-
-button.slick-next.slick-arrow,
-button.slick-prev.slick-arrow {
-    display: none !important;
-}
-
-#wpls-logo-showcase-slider-1 .wp-post-image, #wpls-logo-showcase-slider-1 .wp-post-image img.wp-post-image {
-	max-width: 220px;
-}
 /* -- FOOTER -- */
 
 footer {
@@ -219,9 +194,6 @@ footer img {
 
 /* -- MEDIA QUERIES -- */
 @media (min-width: 1001px) {
-	.ignite {
-		font-size: 5em;
-	}
 	.page-title {
 		font-size: 6em;
 	}
@@ -230,19 +202,6 @@ footer img {
 @media (min-width: 767px) {
 	.page-title {
 		font-size: 4em;
-	}
-}
-
-@media (max-width: 630px) {
-	.d-flex.top-icons,
-	.d-flex.bottom-icons {
-	    flex-direction: column;
-	    text-align: center;
-			margin: 0;
-	}
-	h1.m-5.why-attend-text {
-    letter-spacing: 2px !important;
-    text-align: center;
 	}
 }
 
@@ -256,27 +215,5 @@ footer img {
 	}
 	.main-nav {
 		position: relative;
-	}
-
-	#site-logo {
-		display: none;
-	}
-}
-
-@media (max-width: 1000px) {
-	.row.ignite-home {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.ignite {
-		display: none;
-	}
-}
-
-
-@media (min-width: 1368px) {
-	.ignite {
-		font-size: 6em;
 	}
 }
