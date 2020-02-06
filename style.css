@@ -1,0 +1,282 @@
+/*
+  Theme Name: Career and Workforce Dual Enrollment
+  Theme URI:
+  Author: Courtney Hancock
+  Description: This template was made for the University of Florida Career and Workforce Development Dual Enrollment by Courtney Hancock
+  Version: 1.0
+  License: Open
+  Text Domain: ufcwde
+
+*/
+
+
+/* -- Universal Styling -- */
+@font-face {
+	font-family: 'GentonaBold';
+	src: url('fonts/GentonaBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaBook_Italic';
+	src: url('fonts/GentonaBook_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaBook';
+	src: url('fonts/GentonaBook.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaHeavy_Italic';
+	src: url('fonts/GentonaHeavy_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaHeavy';
+	src: url('fonts/GentonaHeavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaLight_Italic';
+	src: url('fonts/GentonaLight_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaLight';
+	src: url('fonts/GentonaLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonHeavy';
+	src: url('fonts/QuadonHeavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonMedium';
+	src: url('fonts/QuadonMedium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonThin';
+	src: url('fonts/QuadonThin.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'GentonaHeavy', sans-serif !important;
+  color: #00529b;
+	font-size: 1.5em;
+}
+
+h2, h3 {
+  font-family: 'GentonaBold', sans-serif !important;
+  color: #00529b;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+h4, h5, h6 {
+  font-family: 'GentonaBook_Italic', sans-serif !important;
+  color: #322015;
+	font-size: 15px;
+}
+
+p {
+  font-family: 'GentonaBook', sans-serif !important;
+	color: #212121;
+	font-size: 15px;
+}
+
+a {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #f37022;
+	text-decoration: none;
+}
+
+.btn {
+    border: 3px solid #f37022;
+    font-family: 'GentonaBook' !important;
+    color: #ffffff;
+    border-radius: 0;
+		background-color: #f37022;
+}
+.btn:hover {
+  border: 3px solid #f37022 !important;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+body{
+  padding-bottom:300px;
+}
+
+.main-content{
+/*  min-height:190vh;*/
+  background:#fff;
+  z-index:1;
+	position:relative;
+}
+
+.page-title {
+	padding: 25% 0 0 10%;
+	margin-top: -30px;
+	line-height: .8em;
+	font-size: 2em;
+	color: #fff;
+}
+
+/* -- HEADER -- */
+img.iwl-logo {
+	max-width: 100px;
+	margin-top: 2%;
+	margin-left: 20%;
+	max-height:100px;
+}
+div#site-nav {
+	margin-top: 14px;
+}
+
+div#social-nav {
+	margin-top:25px;
+}
+
+.main-nav {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+}
+
+/* -- HOME PAGE -- */
+.ignite {
+	font-size: 6em;
+	text-align: right;
+	color: #00529b;
+	opacity: .5;
+	line-height: .8;
+}
+
+.top-icons {
+	margin-left: 10%;
+}
+
+.bottom-icons {
+	margin-left: 15%;
+}
+
+ul.slick-dots {
+    display: none !important;
+}
+
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+    display: none !important;
+}
+
+#wpls-logo-showcase-slider-1 .wp-post-image, #wpls-logo-showcase-slider-1 .wp-post-image img.wp-post-image {
+	max-width: 220px;
+}
+/* -- FOOTER -- */
+
+footer {
+	background-color: #212121;
+	padding: 3% 0 3% 0;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:300px;
+	z-index:0;
+}
+
+footer p {
+	color: #fff;
+}
+
+.widget-footer h3.widget-title {
+    font-size: 1.2rem;
+    color: #f37022;
+}
+footer ul {
+    font-family: 'GentonaBook' !important;
+    list-style-type: none;
+		padding-left: 0;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+
+footer li a:hover {
+  color: #f37022;
+	text-decoration: none;
+}
+
+.widget-footer.widget-right a {
+  color: #fff;
+}
+.widget-footer.widget-right a:hover {
+  color: #f37022;
+}
+
+footer img {
+	max-width: 300px !important;
+}
+
+/* -- MEDIA QUERIES -- */
+@media (min-width: 1001px) {
+	.ignite {
+		font-size: 5em;
+	}
+	.page-title {
+		font-size: 6em;
+	}
+}
+
+@media (min-width: 767px) {
+	.page-title {
+		font-size: 4em;
+	}
+}
+
+@media (max-width: 630px) {
+	.d-flex.top-icons,
+	.d-flex.bottom-icons {
+	    flex-direction: column;
+	    text-align: center;
+			margin: 0;
+	}
+	h1.m-5.why-attend-text {
+    letter-spacing: 2px !important;
+    text-align: center;
+	}
+}
+
+@media only screen and (max-width: 999px) {
+	footer {
+		text-align: center;
+		height: 600px;
+	}
+	body {
+		padding-bottom: 700px;
+	}
+	.main-nav {
+		position: relative;
+	}
+
+	#site-logo {
+		display: none;
+	}
+}
+
+@media (max-width: 1000px) {
+	.row.ignite-home {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.ignite {
+		display: none;
+	}
+}
+
+
+@media (min-width: 1368px) {
+	.ignite {
+		font-size: 6em;
+	}
+}
