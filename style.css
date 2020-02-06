@@ -119,6 +119,16 @@ body{
 }
 
 /* -- HEADER -- */
+.head-text{
+  color:#fff;
+  font-family: "GentonaLight_Italic",sans-serif;
+}
+
+.thick-head-text {
+  color:#fff;
+  font-family: "GentonaHeavy", sans-serif;
+}
+
 img.uf-logo {
 	max-width: 150px;
 /*	margin-top: 2%;*/
