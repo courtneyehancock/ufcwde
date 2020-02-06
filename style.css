@@ -121,7 +121,8 @@ body{
 /* -- HEADER -- */
 .head-text{
   color:#fff;
-  font-family: "GentonaLight_Italic",sans-serif;
+  font-family: "GentonaLight",sans-serif;
+  font-style: italic;
 }
 
 .thick-head-text {
