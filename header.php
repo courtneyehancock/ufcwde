@@ -12,7 +12,7 @@
 <header>
   <div class="container-fluid align-content-center">
     <div class="row main-nav">
-      <div class="col-md-2" id="site-logo">
+      <div class="col-md-1" id="site-logo">
         <!--If/else for Logo and Site Title-->
         <?php if(get_header_image() == '') { ?>
           <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
@@ -30,7 +30,7 @@
           <p class="thick-head-text">Career & Workforce Dual Enrollment</p>
         </div>
       </div>
-      <div class="col-md-7" id="site-nav">
+      <div class="col-md-8" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
