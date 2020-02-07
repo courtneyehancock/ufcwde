@@ -26,8 +26,8 @@
       <div class="col-md-3 p-3">
         <!--Navigation-->
         <div class="header-text">
-          <p class="head-text">Career & Workforce</p>
-          <p class="thick-head-text">Dual Enrollment</p>
+          <p class="head-text">University of Florida</p>
+          <p class="thick-head-text">Career & Workforce Dual Enrollment</p>
         </div>
       </div>
       <div class="col-md-7 p-3" id="site-nav">
