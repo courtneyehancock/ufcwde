@@ -223,9 +223,6 @@ footer img {
     top:0;
     margin-left:0;
   }
-  .header-text {
-    display:none;
-  }
 }
 
 @media (min-width: 767px) {
@@ -245,4 +242,7 @@ footer img {
 	.main-nav {
 		position: relative;
 	}
+  .header-text {
+    display:none;
+  }
 }
