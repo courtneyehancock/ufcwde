@@ -131,6 +131,8 @@ body{
 .thick-head-text {
   color:#fff;
   font-family: 'GentonaHeavy', sans-serif !important;
+  font-size: 18px;
+  letter-spacing: .8px;
 }
 
 img.uf-logo {
