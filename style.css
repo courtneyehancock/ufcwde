@@ -120,17 +120,17 @@ body{
 
 /* -- HEADER -- */
 .header-text {
-
+  line-height: .5;
 }
 .head-text{
   color:#fff;
-  font-family: 'GentonaLight',sans-serif;
+  font-family: 'GentonaLight',sans-serif !important;
   font-style: italic;
 }
 
 .thick-head-text {
   color:#fff;
-  font-family: 'GentonaHeavy', sans-serif;
+  font-family: 'GentonaHeavy', sans-serif !important;
 }
 
 img.uf-logo {
