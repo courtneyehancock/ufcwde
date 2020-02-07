@@ -49,16 +49,7 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Footer: Middle Left Widget
-    register_sidebar(array(
-      'name'          => ('Middle Left Footer'),
-      'id'            => 'middle-left-footer',
-      'description'   => 'Middle Left widget area in the footer',
-      'before_widget' => '<div class="widget-footer widget-middle-left">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
+
     //Footer: Middle Widget
     register_sidebar(array(
       'name'          => ('Middle Footer'),

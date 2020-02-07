@@ -5,16 +5,11 @@
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
-
-      <div class="col-md-2">
-        <!--Middle Left Footer-->
-        <?php dynamic_sidebar('middle-left-footer'); ?>
-      </div>
-      <div class="col-md-2">
+      <div class="col-md-3">
         <!--Middle Footer-->
         <?php dynamic_sidebar('middle-footer'); ?>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-3">
         <!--Middle Right Footer-->
         <?php dynamic_sidebar('middle-right-footer'); ?>
       </div>
