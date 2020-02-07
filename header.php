@@ -23,14 +23,14 @@
         }
         ?>
       </div>
-      <div class="col-md-3 p-3">
+      <div class="col-md-3">
         <!--Navigation-->
         <div class="header-text">
           <p class="head-text">University of Florida</p>
           <p class="thick-head-text">Career & Workforce Dual Enrollment</p>
         </div>
       </div>
-      <div class="col-md-7 p-3" id="site-nav">
+      <div class="col-md-7" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
