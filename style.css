@@ -138,15 +138,12 @@ body{
 }
 
 img.uf-logo {
-	max-width: 150px;
+	max-width: 90px;
 /*	margin-top: 2%;*/
-  /*margin-left: -4.5%;*/
-	max-height:125px;
-  padding:30px;
+  margin-left: -25%;
+	max-height:75px;
+  padding:20px;
   background-color:#fff;
-  position:absolute;
-  left:0;
-  top:0;
 }
 
 .main-nav {
@@ -212,6 +209,19 @@ footer img {
 	.page-title {
 		font-size: 6em;
 	}
+}
+
+@media (min-width: 1270px) {
+  img.uf-logo {
+  	max-width: 150px;
+  /*	margin-top: 2%;*/
+    /*margin-left: -4.5%;*/
+  	max-height:125px;
+    padding:30px;
+    position:absolute;
+    left:0;
+    top:0;
+  }
 }
 
 @media (min-width: 767px) {
