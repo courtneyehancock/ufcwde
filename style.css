@@ -121,8 +121,8 @@ body{
 /* -- HEADER -- */
 .header-text {
   line-height: .5;
-  padding-left:7%;
-  padding-top:5%;
+  padding-left:4em;
+  padding-top:1.2em;
 }
 .head-text{
   color:#fff;
