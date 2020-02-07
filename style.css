@@ -210,14 +210,6 @@ footer img {
     max-width: 91px;
     max-height: 76px;
   }
-  .thick-head-text {
-    font-size: 18px;
-    letter-spacing: .8px;
-  }
-  .header-text {
-    line-height: .5;
-    padding-top: 1.2em;
-  }
 }
 
 @media (min-width: 1001px) {
@@ -237,6 +229,14 @@ footer img {
     left:0;
     top:0;
     margin-left:0;
+  }
+  .thick-head-text {
+    font-size: 18px;
+    letter-spacing: .8px;
+  }
+  .header-text {
+    line-height: .5;
+    padding-top: 1.2em;
   }
 }
 
