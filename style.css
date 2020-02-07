@@ -267,9 +267,3 @@ footer img {
     display:none;
   }
 }
-
-@media (max-width: 767px) {
-  img.uf-logo {
-    display:none;
-  }
-}
