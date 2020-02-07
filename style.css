@@ -119,6 +119,10 @@ body{
 }
 
 /* -- HEADER -- */
+header {
+  background-color: #f37022;
+}
+
 .header-text {
   line-height: .2;
   padding-left:4em;
