@@ -234,7 +234,7 @@ footer img {
 @media only screen and (max-width: 999px) {
 	footer {
 		text-align: center;
-		height: 600px;
+		height: 500px;
 	}
 	body {
 		padding-bottom: 700px;
