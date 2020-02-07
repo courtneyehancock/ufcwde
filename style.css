@@ -223,6 +223,9 @@ footer img {
     top:0;
     margin-left:0;
   }
+  .header-text {
+    display:none;
+  }
 }
 
 @media (min-width: 767px) {
