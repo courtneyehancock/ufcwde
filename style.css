@@ -146,6 +146,8 @@ img.uf-logo {
 /*	margin-top: 2%;*/
   /*margin-left: -25%;*/
 	max-height:75px;
+  position:absolute;
+  left:0;
   padding:20px;
   background-color:#fff;
 }
@@ -215,13 +217,6 @@ footer img {
 	}
 }
 
-@media (min-width: 999px) {
-  img.uf-logo {
-    max-width: 91px;
-    max-height: 76px;
-  }
-}
-
 @media (min-width: 1001px) {
 	.page-title {
 		font-size: 6em;
@@ -235,8 +230,6 @@ footer img {
     /*margin-left: -4.5%;*/
   	max-height:125px;
     padding:30px;
-    position:absolute;
-    left:0;
     top:0;
     margin-left:0;
   }
