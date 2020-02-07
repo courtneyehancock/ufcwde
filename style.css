@@ -124,13 +124,13 @@ body{
 }
 .head-text{
   color:#fff;
-  font-family: "GentonaLight",sans-serif;
+  font-family: 'GentonaLight',sans-serif;
   font-style: italic;
 }
 
 .thick-head-text {
   color:#fff;
-  font-family: "GentonaHeavy", sans-serif;
+  font-family: 'GentonaHeavy', sans-serif;
 }
 
 img.uf-logo {
