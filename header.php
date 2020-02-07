@@ -25,8 +25,10 @@
       </div>
       <div class="col-md-3 p-3">
         <!--Navigation-->
-        <p class="head-text">Career & Workforce</p>
-        <h1 class="thick-head-text">Dual Enrollment</h1>
+        <div class="header-text">
+          <p class="head-text">Career & Workforce</p>
+          <p class="thick-head-text">Dual Enrollment</p>
+        </div>
       </div>
       <div class="col-md-7 p-3" id="site-nav">
         <!--Navigation-->
