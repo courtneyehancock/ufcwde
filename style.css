@@ -209,6 +209,12 @@ footer img {
 }
 
 /* -- MEDIA QUERIES -- */
+@media (min-width: 767px) {
+	.page-title {
+		font-size: 4em;
+	}
+}
+
 @media (min-width: 999px) {
   img.uf-logo {
     max-width: 91px;
@@ -244,12 +250,6 @@ footer img {
   }
 }
 
-@media (min-width: 767px) {
-	.page-title {
-		font-size: 4em;
-	}
-}
-
 @media only screen and (max-width: 999px) {
 	footer {
 		text-align: center;
@@ -262,6 +262,12 @@ footer img {
 		position: relative;
 	}
   .header-text {
+    display:none;
+  }
+}
+
+@media (max-width: 767px) {
+  img.uf-logo {
     display:none;
   }
 }
