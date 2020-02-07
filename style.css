@@ -205,6 +205,13 @@ footer img {
 }
 
 /* -- MEDIA QUERIES -- */
+@media (min-width: 999px) {
+  img.uf-logo {
+    max-width: 91px;
+  max-height: 76px;
+  }
+}
+
 @media (min-width: 1001px) {
 	.page-title {
 		font-size: 6em;
