@@ -253,7 +253,12 @@ h2.ab-head2 {
 	font-size: 68.5%;
 }
 
-.about-who {
+h1.grid-text,
+h5.grid-text {
+	text-transform:uppercase;
+}
+
+/*.about-who {
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
@@ -261,15 +266,15 @@ h2.ab-head2 {
 	width: 100%;
 	font-size: 1.8rem;
 	max-width: 1200px;
-}
+}*/
 
-.vertical {
+/*.vertical {
 	/*border-right: 2px solid #00529b;*/
-	padding: 4%;
+	/*padding: 4%;
 	color: #bc581a;
 	width: 40%;
 	text-align: right;
-}
+}*/
 
 .ab-description {
 	border-left: 2px solid #00529b;
