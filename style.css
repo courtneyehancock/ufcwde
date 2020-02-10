@@ -396,12 +396,38 @@ footer img {
 }
 
 /* -- MEDIA QUERIES -- */
+@media (min-width: 600px) {
+	.grid figure figcaption {
+		overflow: visible;
+	}
+}
+
+@media (min-width: 700px) {
+	/*.grid figure {
+		width: 80%;*/
+	}
+	.grid {
+		justify-content:center;
+	}
+	/*.contact-departments {
+      margin: 0 20%;
+    }*/
+}
+
 @media (min-width: 767px) {
 	.page-title {
 		font-size: 4em;
 	}
 }
 
+@media (min-width: 900px) {
+  .grid figure {
+    width: 40%;
+  }
+  .grid {
+    display: block;
+  }
+}
 @media (min-width:999px){
   img.uf-logo {
   	max-width: 90px;
@@ -415,6 +441,20 @@ footer img {
 	.page-title {
 		font-size: 6em;
 	}
+}
+@media (min-width: 1200px) {
+	.grid figure {
+		width: 33.333%;
+
+	}
+
+	.grid {
+		display: inline-flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		/*margin: 0;*/
+	}
+
 }
 
 @media (min-width: 1270px) {
