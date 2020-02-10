@@ -421,9 +421,6 @@ footer img {
 }
 
 @media (min-width: 900px) {
-  .grid figure {
-    width: 40%;
-  }
   .grid {
     display: block;
   }
@@ -444,7 +441,7 @@ footer img {
 }
 @media (min-width: 1200px) {
 	.grid figure {
-		width: 33.333%;
+		width: 50%;
 
 	}
 
