@@ -196,7 +196,7 @@ h2.ab-head2 {
 	position: relative;
 	display: block;
 	min-height: 100%;
-	opacity: 0.8;
+	opacity: 0.6;
 	object-fit: cover;
 }
 
@@ -276,15 +276,6 @@ h5.grid-text {
 	text-align: right;
 }*/
 
-.ab-description {
-	border-left: 2px solid #00529b;
-	padding-left: 2%;
-  	margin: 2%;
-	width: 60%;
-	font-size: 1.5rem;
-	text-align: left;
-}
-
 figure.effect-sarah {
 	background: #00529b;
 }
@@ -301,7 +292,7 @@ figure.effect-sarah img {
 }
 
 figure.effect-sarah:hover img {
-	opacity: 0.4;
+	opacity: 0.3;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
