@@ -201,7 +201,7 @@ h2.ab-head2 {
 }
 
 .grid figure figcaption {
-	padding: 2em;
+	padding: 32%;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.25em;
@@ -302,7 +302,7 @@ figure.effect-sarah:hover img {
 }
 
 figure.effect-sarah figcaption {
-	text-align: left;
+	text-align: center;
 }
 
 figure.effect-sarah h2 {
