@@ -166,7 +166,7 @@ h2.ab-head2 {
 .grid {
 	overflow: hidden;
 	margin: 0;
-	padding: 0 0 2em 0;
+/*	padding: 0 0 2em 0;*/
 	width: 100%;
 	list-style: none;
 	text-align: center;
@@ -442,7 +442,6 @@ footer img {
 @media (min-width: 1200px) {
 	.grid figure {
 		width: 50%;
-
 	}
 
 	.grid {
@@ -452,6 +451,9 @@ footer img {
 		/*margin: 0;*/
 	}
 
+	.grid-text {
+		width:45%;
+	}
 }
 
 @media (min-width: 1270px) {
