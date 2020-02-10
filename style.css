@@ -235,7 +235,7 @@ h2.ab-head2 {
 }
 
 .grid figure h2 {
-	word-spacing: -0.15em;
+	/*word-spacing: -0.15em;*/
 	font-weight: 300;
 }
 
