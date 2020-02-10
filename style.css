@@ -160,6 +160,99 @@ img.uf-logo {
 }
 
 /* -- HOME PAGE -- */
+h2.ab-head2 {
+  color: #fff;
+}
+.grid {
+	overflow: hidden;
+	margin: 0;
+	padding: 0 0 2em 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	/*320 px*/
+	display: flex;
+	flex-direction: column;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	z-index: 1;
+	/*display: inline-flex;*/
+	overflow: hidden;
+	/*margin: -0.135em;*/
+	/*media query for full size*/
+	/*width: 33.333%;*/
+	/*width: 100%;*/
+	max-height: 600px;
+	/*height: 100%;*/
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+	object-fit: cover;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	overflow: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
 .about-who {
 	display: flex;
 	justify-content: center;
