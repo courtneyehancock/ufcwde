@@ -1,11 +1,11 @@
 <footer>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 pl-5">
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 pl-5">
         <!--Middle Footer-->
         <?php dynamic_sidebar('middle-footer'); ?>
       </div>
