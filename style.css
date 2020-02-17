@@ -191,7 +191,6 @@ h2.ab-head2 {
 	display: flex;
 	flex-direction: column;
 	align-items:center;
-	height:545px;
 }
 
 /* Common style */
@@ -466,6 +465,7 @@ footer img {
 		flex-direction: row;
 		flex-wrap: wrap;
 		/*margin: 0;*/
+		height:545px;
 	}
 	.bottom-img {
     margin-left: 5%;
