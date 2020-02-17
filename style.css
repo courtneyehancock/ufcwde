@@ -124,6 +124,12 @@ body{
     margin-right:auto;
     margin-left:auto
  }
+
+ li {
+    color: #f37022;
+    font-size: 15px;
+    font-style: italic;
+	}
 /* -- HEADER -- */
 header {
   background-color: #f37022;
