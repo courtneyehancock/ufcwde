@@ -288,10 +288,6 @@ figure.effect-sarah {
 	background: #00529b;
 }
 
-.bottom-img {
-	margin-left:5%;
-}
-
 figure.effect-sarah img {
 	width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);
@@ -451,12 +447,17 @@ footer img {
 	.grid figure {
 		width: 50%;
 	}
-
+	.grid-bottom {
+		margin-top:-6px;
+	}
 	.grid {
 		display: inline-flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		/*margin: 0;*/
+	}
+	.bottom-img {
+    margin-left: 5%;
 	}
 
 	.grid-text {
