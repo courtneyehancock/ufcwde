@@ -118,6 +118,12 @@ body{
 	color: #fff;
 }
 
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
 /* -- HEADER -- */
 header {
   background-color: #f37022;
