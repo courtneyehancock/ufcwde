@@ -173,6 +173,7 @@ h2.ab-head2 {
 	/*320 px*/
 	display: flex;
 	flex-direction: column;
+	align-items:center;
 }
 
 /* Common style */
