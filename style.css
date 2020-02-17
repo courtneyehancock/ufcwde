@@ -125,7 +125,7 @@ body{
     margin-left:auto
  }
 
- li {
+ul.objectives {
     color: #f37022;
     font-size: 15px;
     font-style: italic;
