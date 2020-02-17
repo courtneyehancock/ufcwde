@@ -479,6 +479,9 @@ footer img {
 	.grid-text {
 		width:45%;
 	}
+	figcaption.course-fig {
+    padding: 130px 23px !important;
+	}
 }
 
 @media (min-width: 1270px) {
