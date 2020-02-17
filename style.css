@@ -457,6 +457,11 @@ footer img {
 	.grid figure {
 		width: 50%;
 	}
+	figure.effect-sarah.courses {
+    width: 25%;
+    height: 300px;
+	}
+
 	.grid-bottom {
 		margin-top:-6px;
 	}
