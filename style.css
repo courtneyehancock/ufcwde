@@ -288,6 +288,10 @@ figure.effect-sarah {
 	background: #00529b;
 }
 
+.bottom-img {
+	margin-left:5%;
+}
+
 figure.effect-sarah img {
 	width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);
@@ -410,8 +414,8 @@ footer img {
 	/*.grid figure {
 		width: 80%;*/
 	}
-	.grid {
-		justify-content:center;
+	/*.grid {
+		justify-content:center;*/
 	}
 	/*.contact-departments {
       margin: 0 20%;
