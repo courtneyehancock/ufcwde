@@ -81,6 +81,15 @@ a {
 	color: #ffffff;
 }
 
+a.aa {
+	color:#f37022;
+}
+
+a.aa:hover {
+	color:#00529b;
+}
+
+
 a:hover {
 	color: #f37022;
 	text-decoration: none;
