@@ -189,6 +189,19 @@ img.uf-logo {
 h2.ab-head2 {
   color: #fff;
 }
+p.credit-de {
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    background-color: #f37022;
+    padding: 19px 23px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0 0 0 20px;
+    text-align: center;
+}
+
 .grid {
 	overflow: hidden;
 	margin: 0;
