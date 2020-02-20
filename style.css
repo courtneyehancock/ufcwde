@@ -84,12 +84,17 @@ a {
 a.aa {
 	color:#f37022;
 }
-
 a.aa:hover {
 	color:#00529b;
 }
 
+a.credit-de-link {
+	color:#fff;
+}
 
+a.credit-de-link:hover {
+	color:#00529b;
+}
 a:hover {
 	color: #f37022;
 	text-decoration: none;
