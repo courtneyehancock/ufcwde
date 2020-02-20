@@ -480,9 +480,12 @@ footer img {
 		flex-wrap: wrap;
 		/*margin: 0;*/
 		height:545px;
-	/*	margin-top: -162px;
-		margin-bottom: -136px;*/
 
+	}
+
+	.course-grid {
+		margin-top: -162px;
+	  margin-bottom: -136px;
 	}
 	.bottom-img {
     margin-left: 5%;
