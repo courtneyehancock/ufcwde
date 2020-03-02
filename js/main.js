@@ -3,7 +3,7 @@
 
 // init Isotope
 var $grid = $('.iso-grid').isotope({
-  itemSelector: '.element-item',
+  itemSelector: '.grid-item',
   layoutMode: 'fitRows',
   getSortData: {
     name: '.name',
