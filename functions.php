@@ -19,7 +19,7 @@
   //Javascript files
     wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
-    wp_enqueue_script('isotope-js', get_template_directory_uri() . '/js/isotope-docs.min.js');
+    wp_enqueue_script('isotope-js', get_template_directory_uri() . '/js/isotope.pkgd.min.js.');
     wp_enqueue_script('jquery-js', get_template_directory_uri() . '/js/jquery.min.js');
 
   }
