@@ -2,6 +2,12 @@
 
 
 // init Isotope
+$('.iso-grid').isotope({
+  masonry: {
+    columnWidth: 200
+  }
+});
+
 var $grid = $('.iso-grid').isotope({
   itemSelector: '.grid-item',
   layoutMode: 'fitRows',
