@@ -152,6 +152,7 @@ header {
 .row.main-nav {
     margin-left: 0;
     margin-right: 0;
+		box-shadow: 1px 0 8px #00529b;
 }
 
 .header-text {
