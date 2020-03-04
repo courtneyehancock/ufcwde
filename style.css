@@ -146,7 +146,7 @@ ul.objectives {
 	}
 /* -- HEADER -- */
 header {
-  background-color: #f37022;
+  background-color: #fff;
 }
 
 .row.main-nav {
@@ -160,13 +160,13 @@ header {
   padding-top:1.6em;
 }
 .head-text{
-  color:#fff;
+  color:#00529b;
   font-family: 'GentonaLight',sans-serif !important;
   font-style: italic;
 }
 
 .thick-head-text {
-  color:#fff;
+  color:#00529b;
   font-family: 'GentonaHeavy', sans-serif !important;
   font-size: 13px;
   letter-spacing: .5px;
@@ -180,14 +180,14 @@ img.uf-logo {
   position:absolute;
   left:0;
   padding:20px;
-  background-color:#fff;
+  background-color:#00529b;
 }
 
 .main-nav {
 	position: fixed;
 	z-index: 2;
 	width: 100%;
-  background-color:#f37022;
+  background-color:#fff;
 }
 
 /* -- HOME PAGE -- */
