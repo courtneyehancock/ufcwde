@@ -408,7 +408,7 @@ footer p {
 
 .widget-footer h3.widget-title {
     font-size: 1.2rem;
-    color: #f37022;
+  /*  color: #f37022;*/
 }
 footer ul {
     font-family: 'GentonaBook' !important;
@@ -423,7 +423,7 @@ footer li a {
 }
 
 footer li a:hover {
-  color: #f37022;
+  color: #bc581a;
 	text-decoration: none;
 }
 
@@ -431,7 +431,7 @@ footer li a:hover {
   color: #fff;
 }
 .widget-footer.widget-right a:hover {
-  color: #f37022;
+  color: #bc581a;
 }
 
 footer img {
