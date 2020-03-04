@@ -241,7 +241,7 @@ p.credit-de {
 	position: relative;
 	display: block;
 	min-height: 100%;
-	opacity: 0.6;
+	opacity: 0.4;
 	object-fit: cover;
 }
 
@@ -337,7 +337,7 @@ figure.effect-sarah img {
 }
 
 figure.effect-sarah:hover img {
-	opacity: 0.3;
+	opacity: 0.2;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
