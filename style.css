@@ -181,7 +181,8 @@ img.uf-logo {
   position:absolute;
   left:0;
   padding:20px;
-  background-color:#00529b;
+  /*background-color:#00529b;*/
+	background-image: linear-gradient(#00529b, #101c3d);
 }
 
 .main-nav {
