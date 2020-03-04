@@ -19,6 +19,8 @@
       </div>
     </div>
 
+    <hr />
+    <p class="text-center"> © 2020 University of Florida Career and Workforce Development Dual Enrollment</p>
   </div>
 </footer>
 
