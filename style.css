@@ -101,16 +101,16 @@ a:hover {
 }
 
 .btn {
-    border: 3px solid #f37022;
+    border: 3px solid #bc581a;
     font-family: 'GentonaBook' !important;
     color: #ffffff;
     border-radius: 0;
-		background-color: #f37022;
+		background-color: #bc581a;
 }
 .btn:hover {
-  border: 3px solid #f37022 !important;
-  background-color: transparent;
-  color: #f37022;
+  border: 3px solid #ffffff !important;
+  background-color: #ffffff;
+  color: #bc581a;
 }
 
 body{
