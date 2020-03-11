@@ -55,7 +55,7 @@
 h1 {
   font-family: 'GentonaHeavy', sans-serif !important;
   color: #00529b;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 h2, h3 {
@@ -68,13 +68,13 @@ h2, h3 {
 h4, h5, h6 {
   font-family: 'GentonaBook_Italic', sans-serif !important;
   color: #322015;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 p {
   font-family: 'GentonaBook', sans-serif !important;
 	color: #212121;
-	font-size: 16px;
+	font-size: 16px !important;
 }
 
 a {
