@@ -543,10 +543,10 @@ footer img {
 @media only screen and (max-width: 999px) {
 	footer {
 		text-align: center;
-		height: 850px;
+		height: 900px;
 	}
 	body {
-		padding-bottom: 850px;
+		padding-bottom: 900px;
 	}
 	.main-nav {
 		position: relative;
