@@ -126,7 +126,7 @@ a:hover {
 
 .btn {
     border: 3px solid #bc581a;
-    font-family: 'GentonaBook' !important;
+    font-family: 'GentonaLight' !important;
     color: #ffffff;
     border-radius: 0;
 		background-color: #bc581a;
@@ -192,9 +192,10 @@ header {
 
 .thick-head-text {
   color:#00529b;
-  font-family: 'GentonaHeavy', sans-serif !important;
+  font-family: 'GentonaBold', sans-serif !important;
   font-size: 13px;
   letter-spacing: .5px;
+	font-weight:bold;
 }
 
 img.uf-logo {
