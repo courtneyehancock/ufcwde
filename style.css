@@ -506,6 +506,11 @@ footer img {
 		bottom:90px;
 		left:149px;
 	}
+	a.apply-btn.btn {
+    position: absolute;
+    bottom: 150px;
+    left: 450px;
+	}
 }
 
 @media (min-width: 700px) {
