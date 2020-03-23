@@ -499,12 +499,12 @@ footer img {
 	}
 	h1.home-head {
 		font-size: 4.5em;
-		right: 66px;
+		left: 66px;
 	}
 	h2.home-subhead {
 		font-size: 2em;
 		bottom:90px;
-		right:149px;
+		left:149px;
 	}
 }
 
