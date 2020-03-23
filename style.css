@@ -235,6 +235,7 @@ h2.home-subhead {
 	bottom: 97px;
 	right: 60px;
 }
+
 h2.ab-head2 {
   color: #fff;
 }
@@ -482,9 +483,28 @@ footer img {
 }
 
 /* -- MEDIA QUERIES -- */
+@media (min-width: 500px){
+	img.header-text {
+		max-width: 175px;
+		position: absolute;
+		left: 40px;
+		top: 22px;
+		display:block;
+	}
+}
+
 @media (min-width: 600px) {
 	.grid figure figcaption {
 		overflow: visible;
+	}
+	h1.home-head {
+		font-size: 4.5em;
+		right: 66px;
+	}
+	h2.home-subhead {
+		font-size: 2em;
+		bottom:90px;
+		right:149px;
 	}
 }
 
@@ -517,7 +537,7 @@ footer img {
   /*	margin-top: 2%;*/
     /*margin-left: -25%;*/
   	max-height:75px;
-  }
+	}
 }
 
 @media (min-width: 1001px) {
