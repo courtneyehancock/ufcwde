@@ -218,6 +218,23 @@ img.uf-logo {
 }
 
 /* -- HOME PAGE -- */
+h1.home-head{
+	color:#fff;
+	padding: 1% 5%;
+	/*text-shadow: 3px 4px 0px #bc581a;*/
+	border: 2px solid #a8dcd9;
+	position: absolute;
+	bottom: 138px;
+	text-align:center;
+}
+
+h2.home-subhead {
+	color:#fff;
+	font-size: 1em;
+	position:absolute;
+	bottom: 97px;
+	right: 60px;
+}
 h2.ab-head2 {
   color: #fff;
 }
