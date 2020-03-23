@@ -53,29 +53,53 @@
 }
 
 h1 {
-  font-family: 'GentonaHeavy', sans-serif !important;
-  color: #00529b;
-	font-size: 2em;
-}
-
-h2, h3 {
   font-family: 'GentonaBold', sans-serif !important;
   color: #00529b;
-	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 30px;
+	font-weight:bold;
 }
 
-h4, h5, h6 {
-  font-family: 'GentonaBook_Italic', sans-serif !important;
-  color: #322015;
+h2 {
+  font-family: 'QuadonMedium', serif !important;
+  color: #00529b;
+	font-size: 1.2em;
+	letter-spacing:.8px;
+}
+
+h3 {
+  font-family: 'QuadonThin', serif !important;
+  color: #00529b;
+	font-size: 1em;
+	font-weight:bold;
+	letter-spacing:1.5px;
+}
+
+h4 {
+  font-family: 'GentonaLight', sans-serif !important;
+  color: #00529b;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h5 {
+  font-family: 'GentonaLight_Italic', sans-serif !important;
+  color: #00529b;
+	font-size: 18px;
+}
+
+h6 {
+  font-family: 'GentonaLight', sans-serif !important;
+  color: #00529b;
 	font-size: 18px;
 }
 
 p {
-  font-family: 'GentonaBook', sans-serif !important;
+  font-family: 'GentonaLight', sans-serif !important;
 	color: #212121;
-	font-size: 16px !important;
+	font-size: 16px;
 }
+
 
 a {
 	color: #ffffff;
