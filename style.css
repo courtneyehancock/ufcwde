@@ -223,17 +223,23 @@ h1.home-head{
 	padding: 1% 5%;
 	/*text-shadow: 3px 4px 0px #bc581a;*/
 	border: 2px solid #a8dcd9;
-	position: absolute;
-	bottom: 138px;
+	/*position: absolute;
+	bottom: 138px;*/
 	text-align:center;
 }
 
-h2.home-subhead {
+h2.home-subhead { 
 	color:#fff;
 	font-size: 1em;
-	position:absolute;
+	/*position:absolute;
 	bottom: 97px;
-	right: 60px;
+	right: 60px;*/
+	text-align:center;
+}
+
+a.apply-btn.btn {
+	display:flex;
+	justify-content:center;
 }
 
 h2.ab-head2 {
@@ -500,11 +506,14 @@ footer img {
 	h1.home-head {
 		font-size: 4.5em;
 		left: 66px;
+		position: absolute;
+		bottom: 138px;
 	}
 	h2.home-subhead {
 		font-size: 2em;
 		bottom:90px;
 		left:165px;
+		position:absolute;
 	}
 	a.apply-btn.btn {
     position: absolute;
