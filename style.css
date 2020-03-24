@@ -252,7 +252,7 @@ h2.ab-head2 {
 p.credit-de {
     position: absolute;
     z-index: 1;
-    right: 15px;
+    right: 0px;
     background-color: #bc581a;
     padding: 19px 23px;
     font-weight: bold;
