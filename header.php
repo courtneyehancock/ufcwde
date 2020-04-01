@@ -27,10 +27,10 @@
       </div>
       <div class="col-md-4">
         <!--Navigation-->
-        <div class="header-text">
+        <a href="<?php echo home_url('/'); ?>"><div class="header-text">
           <p class="head-text">Career and Workforce Dual Enrollment</p>
           <p class="thick-head-text">UNIVERSITY of FLORIDA</p>
-        </div>
+        </div></a>
       </div>
       <div class="col-md-7" id="site-nav">
         <!--Navigation-->
