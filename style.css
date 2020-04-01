@@ -186,16 +186,22 @@ header {
 }
 .head-text{
   color:#00529b;
-  font-family: 'GentonaLight',sans-serif !important;
-  font-style: italic;
+  /*font-family: 'GentonaLight',sans-serif !important;*/
+	font-family: classica-pro, serif !important;
+	font-style: normal;
+	font-weight: 400;
+  /*font-style: italic;*/
 }
 
 .thick-head-text {
   color:#00529b;
-  font-family: 'GentonaBold', sans-serif !important;
+/*  font-family: 'GentonaBold', sans-serif !important;*/
+	font-family: classica-pro, serif !important;
   font-size: 13px;
   letter-spacing: .5px;
-	font-weight:bold;
+	font-style:italic;
+	font-weight:400;
+/*	font-weight:bold;*/
 }
 
 img.uf-logo {
@@ -455,6 +461,7 @@ footer {
 	height:500px;
 	z-index:0;
 }
+
 
 footer p {
 	color: #fff;
