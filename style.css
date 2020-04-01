@@ -187,7 +187,7 @@ header {
 .head-text{
   color:#00529b;
   /*font-family: 'GentonaLight',sans-serif !important;*/
-	font-family: classica-pro, serif !important;
+	font-family: 'classica-pro', serif !important;
 	font-style: normal;
 	font-weight: 400;
   /*font-style: italic;*/
@@ -196,7 +196,7 @@ header {
 .thick-head-text {
   color:#00529b;
 /*  font-family: 'GentonaBold', sans-serif !important;*/
-	font-family: classica-pro, serif !important;
+	font-family: 'classica-pro', serif !important;
   font-size: 13px;
   letter-spacing: .5px;
 	font-style:italic;
