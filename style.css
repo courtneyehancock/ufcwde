@@ -12,10 +12,6 @@
 
 /* -- Universal Styling -- */
 @font-face {
-	font-family: 'GentonaBold';
-	src: url('fonts/GentonaBold.ttf') format('truetype');
-}
-@font-face {
 	font-family: 'GentonaBook_Italic';
 	src: url('fonts/GentonaBook_Italic.ttf') format('truetype');
 }
@@ -53,7 +49,7 @@
 }
 
 h1 {
-  font-family: 'GentonaBold', sans-serif !important;
+  font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
 	font-size: 30px;
 	font-weight:bold;
