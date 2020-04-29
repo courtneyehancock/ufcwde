@@ -480,7 +480,8 @@ figure.effect-sarah:hover p {
 /* -- FOOTER -- */
 
 footer {
-	background-image: url(https://ufcwde.com/wp-content/uploads/2020/02/prism.png);
+	/*background-image: url(https://ufcwde.com/wp-content/uploads/2020/02/prism.png);*/
+	background-color: #00285e;
 	padding: 3% 0 3% 0;
 	position:fixed;
 	bottom:0;
