@@ -496,6 +496,10 @@ footer {
 	padding: 3%;
 }
 
+.final-footer img {
+	width: 100%;
+}
+
 footer p {
 	color: #fff;
 }
