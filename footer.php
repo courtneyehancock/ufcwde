@@ -19,7 +19,6 @@
       </div>
     </div>
 
-    <hr />
   </div>
   <div class="container-fluid final-footer">
     <div class="row">
