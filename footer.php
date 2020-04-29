@@ -19,7 +19,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container-fluid final-footer">
     <div class="container">
       <div class="row">
@@ -27,10 +27,10 @@
           <p class="text-center font-italic"> © 2020 University of Florida Career and Workforce Dual Enrollment</p>
         </div>
         <div class="col-md-3">
-          <img alt="PWD Logo" src="http://apps.aa.ufl.edu/PDContent/website/pwd/Office_ProfessionalAndWorkforceDev-white.png"/>
+          <a href="https://pwd.aa.ufl.edu/" target="_blank"><img alt="PWD Logo" src="http://apps.aa.ufl.edu/PDContent/website/pwd/Office_ProfessionalAndWorkforceDev-white.png"/></a>
         </div>
         <div class="col-md-3">
-          <img alt="UF Logo" src="http://apps.aa.ufl.edu/PDContent/website/UF_Signature_white.png"/>
+          <a href="https://www.ufl.edu/" target="_blank"><img alt="UF Logo" src="http://apps.aa.ufl.edu/PDContent/website/UF_Signature_white.png"/></a>
         </div>
       </div>
     </div>
