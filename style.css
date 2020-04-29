@@ -614,6 +614,12 @@ footer img {
   }*/
 }
 
+@media only screen and (max-width: 1205px) {
+  .header-text {
+    display:none;
+  }
+}
+
 @media only screen and (max-width: 999px) {
 	footer {
 		text-align: center;
@@ -625,7 +631,4 @@ footer img {
 	.main-nav {
 		position: relative;
 	}
-  .header-text {
-    display:none;
-  }
 }
