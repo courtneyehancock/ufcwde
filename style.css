@@ -188,7 +188,7 @@ header {
 	font-weight: 600;
 	letter-spacing: .5px;
   /*font-style: italic;*/
-	font-size: 22px;
+	font-size: 20px;
 }
 
 img.uf-logo {
@@ -604,9 +604,6 @@ footer img {
   /*  padding:30px;*/
     top:0;
     margin-left:0;
-  }
-  .thick-head-text {
-    font-size: 15px;
   }
 /*  .header-text {
     padding-top: 1.5em;
