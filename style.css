@@ -491,6 +491,10 @@ footer {
 	z-index:0;
 }
 
+.container-fluid .final-footer {
+	background-image: #001b3d;
+	padding: 3%;
+}
 
 footer p {
 	color: #fff;
