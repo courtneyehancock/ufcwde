@@ -494,6 +494,7 @@ footer {
 .final-footer {
 	background-color: #001b3d;
 	padding: 3%;
+	position:absolute;
 }
 
 .final-footer img {
