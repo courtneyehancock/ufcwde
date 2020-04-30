@@ -678,11 +678,7 @@ footer img {
 @media only screen and (max-width: 999px) {
 	footer {
 		text-align: center;
-	/*	height: 750px;
 	}
-	body {
-		padding-bottom: 750px;
-	}*/
 	.main-nav {
 		position: relative;
 	}
