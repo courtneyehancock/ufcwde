@@ -142,7 +142,7 @@ a {
 }
 
 a.aa {
-	color:#bc581a;
+	color:#ff590e;
 }
 a.aa:hover {
 	color:#00529b;
@@ -161,16 +161,16 @@ a:hover {
 }
 
 .btn {
-    border: 3px solid #bc581a;
+    border: 3px solid #ff590e;
     font-family: 'GentonaLight' !important;
     color: #ffffff;
     border-radius: 0;
-		background-color: #bc581a;
+		background-color: #ff590e;
 }
 .btn:hover {
   border: 3px solid #ffffff !important;
   background-color: #ffffff;
-  color: #bc581a;
+  color: #ff590e;
 }
 
 /*body{
