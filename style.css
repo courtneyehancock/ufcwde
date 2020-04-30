@@ -673,12 +673,12 @@ footer img {
   }*/
 }
 
-@media (min-width:1500px) {
+@media (min-width:2000px) {
 	footer {
-		height:450px;
+		height:420px;
 	}
 	body{
-		padding-bottom:450px;
+		padding-bottom:420px;
 	}
 }
 
