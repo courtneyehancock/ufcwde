@@ -366,7 +366,7 @@ p.credit-de {
 	text-indent: 200%;
 	white-space: nowrap;
 	font-size: 0;
-	opacity: 0;
+/*	opacity: 0;*/
 }
 
 .grid figure h2 {
