@@ -3,7 +3,7 @@ get_header();
 ?>
 <div class="container">
   <div class="row">
-    <div class="twelve columns">
+    <div class="col-lg-12">
       <h2><?php
         if(is_category()){
           single_cat_title();
@@ -23,7 +23,7 @@ get_header();
       <?php if(have_posts()){
               while(have_posts()){
                 the_post(); ?>
-                <div class="twelve columns">
+                <div class="col-lg-12">
                   <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                   <p>Published: <?php the_time('F j, Y'); ?></p>
                   <p><?php the_excerpt(); ?></p>
