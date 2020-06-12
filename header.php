@@ -6,6 +6,8 @@
   <title><?php bloginfo('name'); ?></title>
   <!--Classica Web Font-->
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
+  <!--font awesome-->
+  <script src="https://use.fontawesome.com/8a29ee712e.js"></script>
   <?php wp_head(); ?>
 </head>
 
