@@ -16,6 +16,9 @@
   //main CSS
     wp_enqueue_style('main-styles', get_stylesheet_uri());
 
+  //font awesome
+    wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/css/all.css');
+
   //Javascript files
     wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
