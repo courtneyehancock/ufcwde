@@ -615,6 +615,9 @@ footer img {
 	body{
 	  padding-bottom:400px;
 	}
+	.row.main-nav {
+		top: 32px;
+	}
 }
 
 @media (min-width: 1001px) {
