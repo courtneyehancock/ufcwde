@@ -248,6 +248,7 @@ img.uf-logo {
 	z-index: 2;
 	width: 100%;
   background-color:#fff;
+	top:0;
 }
 
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
