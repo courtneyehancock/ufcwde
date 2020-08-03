@@ -30,7 +30,8 @@
       <div class="col-md-4">
         <!--Navigation-->
         <a href="<?php echo home_url('/'); ?>"><div class="header-text">
-          <p class="head-text">Career and Workforce Dual Enrollment</p>
+        <!--  <p class="head-text">Career and Workforce Dual Enrollment</p>-->
+        <p class="head-text"><?php bloginfo('description'); ?></p>
         </div></a>
       </div>
       <div class="col-md-7" id="site-nav">
