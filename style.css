@@ -557,9 +557,9 @@ footer img {
 }
 
 @media (min-width: 600px) {
-	.grid figure figcaption {
+/*	.grid figure figcaption {
 		overflow: visible;
-	}
+	}*/
 	h1.home-head {
 		font-size: 4.5em;
 		left: 66px;
@@ -597,11 +597,12 @@ footer img {
 	}
 }
 
-@media (min-width: 900px) {
+/*@media (min-width: 900px) {
   .grid {
     display: block;
   }
-}
+}*/
+
 @media (min-width:999px){
   img.uf-logo {
   	max-width: 95px;
@@ -630,7 +631,7 @@ footer img {
 		font-size: 6em;
 	}
 }
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 	.grid figure {
 		width: 50%;
 	}
@@ -647,7 +648,7 @@ footer img {
 		flex-direction: row;
 		flex-wrap: wrap;
 		/*margin: 0;*/
-		height:545px;
+		/*height:545px;
 	}
 	.course-grid {
 		margin-top: -162px;
@@ -663,7 +664,7 @@ footer img {
 	figcaption.course-fig {
     padding: 130px 23px !important;
 	}
-}
+}*/
 
 @media (min-width: 1270px) {
   img.uf-logo {
