@@ -257,6 +257,11 @@ img.uf-logo {
     letter-spacing: 1.5px;
 }
 
+/* -- INTERNAL PAGE HEADERS -- */
+.internal-div {
+	padding: 95px 0 20px;
+}
+
 /* -- HOME PAGE -- */
 h1.home-head{
 	color:#fff;
