@@ -28,7 +28,6 @@
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
-
   //Widget Areas
   function blank_widgets_init() {
 
