@@ -22,9 +22,9 @@
   //Javascript files
     wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
-    wp_enqueue_script('non-credit', get_template_directory_uri() . '/js/noncreditview.js');
+    wp_enqueue_script('non-credit', 'https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/Distance/NonCreditViewDev.js');
     wp_enqueue_script('treeo', 'https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/XMS/CourseInfo.js');
-    wp_enqueue_script('conf', get_template_directory_uri() . '/js/conf.js');
+    wp_enqueue_script('conf', 'https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/XMS/ConfList.js');
     wp_enqueue_script('dce-data', 'https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/DCEData-latest.min.js');
   }
 
