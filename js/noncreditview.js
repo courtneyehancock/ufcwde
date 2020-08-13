@@ -249,7 +249,6 @@ jQuery(document).ready(function ($) {
     });
 
 });//end doc ready
-
 var resetFilteredCourses = function () {
     currentPage = 1;
     filteredCourses = [];
