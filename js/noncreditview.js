@@ -540,6 +540,7 @@ var setupInfiniteScrolling = function () {
 
 
 //get course/section collection from the app and return JsonP
+jQuery(document).ready(function ($) {
 function getNonCreditCourses() {
     $.jsonp({
 
@@ -614,3 +615,4 @@ function getNonCreditCourses() {
         console.log(result);
     }
 }
+});
