@@ -15,11 +15,12 @@
 
 </div>
 
+
 <script type="text/javascript">
-        $(document).ready(function () {;
-            getXMSConferencesSSP(0, 3, 'active');
-            getXMSConferences(3, 3, 'active');
-        });
+jQuery(document).ready(function ($) {
+    getXMSConferencesSSP(0, 3, 'active');
+    getXMSConferences(3, 3, 'active');
+});
 	</script>
 
 <?php get_footer(); ?>
