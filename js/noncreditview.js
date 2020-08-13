@@ -1,4 +1,4 @@
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
 
     getNonCreditCourses();
     $('.nullResults').hide();
