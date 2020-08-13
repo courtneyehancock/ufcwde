@@ -22,6 +22,7 @@
   //Javascript files
     wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
+    wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js');
     wp_enqueue_script('conf-list', 'https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/XMS/ConfList.js');
     wp_enqueue_script('dce-data', 'https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/DCEData-latest.min.js');
   }
