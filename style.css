@@ -148,6 +148,14 @@ a.aa:hover {
 	color:#00529b;
 }
 
+a.fgc-link {
+	color: #1d5632;
+}
+
+a.fgc-link:hover {
+	color: #f5b70b;
+}
+
 a.credit-de-link {
 	color:#fff;
 }
