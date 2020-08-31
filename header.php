@@ -14,7 +14,7 @@
 <body <?php body_class();?>>
 
 <header>
-  <div class="container-fluid align-content-center">
+  <div class="align-content-center">
     <div class="row main-nav">
       <div class="col-md-1" id="site-logo">
         <!--If/else for Logo and Site Title-->
