@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row internal-div justify-content-center">
     <?php
       if(have_posts()){
