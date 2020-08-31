@@ -2,8 +2,8 @@
 <?php get_header(); ?>
 
 <div class="container">
-<div class="row">
-  <div class="col-lg-12 not-found">
+<div class="row internal-div">
+  <div class="not-found">
     <h2>Page Not Found</h2>
     <h3>This usually never happens.</h3>
     <p>It looks like nothing was found at this location. Would you like to go back <a href="<?php echo home_url('/');?>">home</a></p>
