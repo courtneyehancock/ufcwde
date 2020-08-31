@@ -2,7 +2,7 @@
 
 <div class="main-content">
   <div class="container-fluid">
-    <div class="row internal-div justify-content-center">
+    <div class="row align-items-start internal-div justify-content-center">
     <?php
       if(have_posts()){
         while(have_posts()){

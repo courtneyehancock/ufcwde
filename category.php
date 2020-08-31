@@ -22,7 +22,7 @@ if ( have_posts() ) : ?>
 <div class="archive-meta"><?php echo category_description(); ?></div>
 <?php endif; ?>
 </header>
-<div class="row internal-div justify-content-center">
+<div class="row align-items-start internal-div justify-content-center">
 <?php
 
 // The Loop

@@ -22,7 +22,7 @@ if ( have_posts() ) : ?>
   <h1>Articles and tutorials about Blue things and Smurfs.</h1>
 </div>
 </header>
-<div class="row internal-div justify-content-center">
+<div class="row align-items-start internal-div justify-content-center">
 <?php
 
   // The Loop
