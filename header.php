@@ -34,6 +34,7 @@
         <p class="head-text"><?php bloginfo('description'); ?></p>
         </div></a>
       </div>
+
       <div class="col-md-7" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
