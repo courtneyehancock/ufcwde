@@ -7,7 +7,6 @@ get_header(); ?>
 
 <div class="main-content">
   <div class="container-fluid">
-    <div class="row internal-div justify-content-center">
 
 <?php
 // Check if there are any posts to display
@@ -23,14 +22,14 @@ if ( have_posts() ) : ?>
 <div class="archive-meta"><?php echo category_description(); ?></div>
 <?php endif; ?>
 </header>
-
+<div class="row internal-div justify-content-center">
 <?php
 
 // The Loop
 while ( have_posts() ) : the_post(); ?>
 <div class="col-lg-3 posts">
   <?php the_post_thumbnail('medium'); ?>
-  <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+  <h2 class="post-title"><a class="aa" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
   <?php the_excerpt(); ?>
   <?php
     $archive_year = get_the_time('Y');
