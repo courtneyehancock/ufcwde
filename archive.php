@@ -24,10 +24,10 @@ get_header();
               while(have_posts()){
                 the_post(); ?>
                 <div class="col-lg-12">
-                  <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                  <h3><a class="aa" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                   <p>Published: <?php the_time('F j, Y'); ?></p>
                   <p><?php the_excerpt(); ?></p>
-                  <a href="<?php the_permalink() ?>">Read More</a>
+                  <a class="aa" href="<?php the_permalink() ?>">Read More</a>
                 </div>
           <?php    }
             }
