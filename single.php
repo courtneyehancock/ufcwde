@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-<div class="container">
+<div class="container internal-div">
 <?php
   if(have_posts()){
     while(have_posts()){
@@ -12,7 +12,7 @@
       <h2 class="post-title"><?php the_title(); ?></h2>
       <p><?php echo "Published: " . get_the_date(); ?></p>
       <?php the_content(); ?>
-      <p><?php echo "This post is written by : " . get_the_author(); ?></p>
+      <!--<p><?php echo "This post is written by : " . get_the_author(); ?></p>-->
 
       <div class="pagination-single">
         <?php previous_post_link('%link', 'Previous Post >>');?>
