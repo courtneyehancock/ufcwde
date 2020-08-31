@@ -5,8 +5,9 @@
 
 get_header(); ?>
 
-<section id="primary" class="site-content">
-<div id="content" role="main">
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row internal-div justify-content-center">
 
 <?php
 // Check if there are any posts to display
@@ -27,15 +28,19 @@ if ( have_posts() ) : ?>
 
 // The Loop
 while ( have_posts() ) : the_post(); ?>
-<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-<small><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
-
-<div class="entry">
-<?php the_content(); ?>
-
- <p class="postmetadata"><?php
-  comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', 'Comments closed');
-?></p>
+<div class="col-lg-3 posts">
+  <?php the_post_thumbnail('medium'); ?>
+  <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+  <?php the_excerpt(); ?>
+  <?php
+    $archive_year = get_the_time('Y');
+    $archive_month = get_the_time('m');
+    $archive_day = get_the_time('d');
+  ?>
+  <div class="post-info">
+  <!--  <p class="font-italic">Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>-->
+    <p class="category-label font-italic">Category: <?php the_category(); ?></p>
+  </div>
 </div>
 
 <?php endwhile;
@@ -46,6 +51,7 @@ else: ?>
 
 <?php endif; ?>
 </div>
-</section>
- 
+</div>
+</div>
+
 <?php get_footer(); ?>
