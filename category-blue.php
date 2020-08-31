@@ -4,24 +4,25 @@
 */
 
 get_header(); ?>
-
-<div class="container-fluid">
+<div class="main-content">
+<div class="container-fluid internal-div">
 <?php
 // Check if there are any posts to display
 if ( have_posts() ) : ?>
 
-<header class="archive-header">
+
 <?php
 // Since this template will only be used for Design category
 // we can add category title and description manually.
 // or even add images or change the layout
 ?>
 
-<h1 class="archive-title">Blue Articles</h1>
-<div class="archive-meta">
-  <h1>Articles and tutorials about Blue things and Smurfs.</h1>
+<h1 class="text-uppercase text-right">Blue Articles</h1>
+<hr>
+<div>
+  <h4 class="text-center">Articles and tutorials about Blue things and Smurfs.</h4>
 </div>
-</header>
+
 <div class="row align-items-start internal-div justify-content-center">
 <?php
 
@@ -48,6 +49,7 @@ if ( have_posts() ) : ?>
 else: ?>
 <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
+</div>
 </div>
 </div>
 <?php get_footer(); ?>
