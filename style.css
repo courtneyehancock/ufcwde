@@ -312,6 +312,60 @@ p.credit-de {
 		/*margin-top: 39px;*/
 }
 
+/* -- BLOG -- */
+.col-lg-3.posts {
+	padding:10px;
+	box-shadow: 1px 5px 8px rgba(0,0,0,.1);
+	margin: .5%;
+}
+
+.posts p {
+	margin-bottom: 0;
+}
+
+h2.archive-title {
+	margin: 15px 20px;
+}
+
+p.category-label,
+.post-categories {
+	display: inline-block;
+}
+
+ul.post-categories {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding-left: 5px;
+}
+
+.post-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ff590e;
+}
+
+.post-info {
+	margin:10px 0px;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.written-by,
+.published {
+	display: inline-block;
+}
+
+ul.post-categories li {
+    display: inline;
+}
 /*.grid {
 	overflow: hidden;
 	margin: 0;
