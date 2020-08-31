@@ -18,7 +18,7 @@
               $archive_day = get_the_time('d');
             ?>
             <div class="post-info">
-              <p class="font-italic">Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
+            <!--  <p class="font-italic">Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>-->
               <p class="category-label font-italic">Category: <?php the_category(); ?></p>
             </div>
           </div>
