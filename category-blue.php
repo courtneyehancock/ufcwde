@@ -17,7 +17,7 @@ if ( have_posts() ) : ?>
 // or even add images or change the layout
 ?>
 
-<h1 class="text-uppercase text-right">Blue Articles</h1>
+<h1 class="text-uppercase text-right pr-5">Blue Articles</h1>
 <hr>
 <div>
   <h4 class="text-center">Articles and tutorials about Blue things and Smurfs.</h4>
