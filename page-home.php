@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div class="container-fluid">
+  <div>
     <div class="row">
       <div class="col-md-12">
         <?php
