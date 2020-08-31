@@ -138,7 +138,7 @@ p {
 
 
 a {
-	color: #ffffff;
+	color: #ff590e;
 }
 
 a.aa {
@@ -164,7 +164,7 @@ a.credit-de-link:hover {
 	color:#00529b;
 }
 a:hover {
-	color: #ff590e;
+	color: #00529b;
 	text-decoration: none;
 }
 
