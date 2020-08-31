@@ -2,7 +2,7 @@
 get_header();
 ?>
 <div class="container">
-  <div class="row">
+  <div class="row internal-div">
     <div class="col-lg-12">
       <h2><?php
         if(is_category()){
