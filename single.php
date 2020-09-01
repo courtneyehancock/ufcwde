@@ -10,7 +10,7 @@
         <?php the_post_thumbnail(); ?>
       </div>-->
       <h2 class="post-title"><?php the_title(); ?></h2>
-      <p><?php echo "Published: " . get_the_date(); ?></p>
+      <!--<p><?php echo "Published: " . get_the_date(); ?></p>-->
       <?php the_content(); ?>
       <!--<p><?php echo "This post is written by : " . get_the_author(); ?></p>-->
 
