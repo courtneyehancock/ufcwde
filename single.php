@@ -2,10 +2,7 @@
 
 <div class="main-content">
 <div class="container internal-div">
-  <div class="row">
-    <div class="col-lg-3">
-    </div>
-    <div class="col-lg-9">
+
 <?php
   if(have_posts()){
     while(have_posts()){
@@ -26,8 +23,6 @@
         <?php next_post_link('%link', 'Next Post >>');?>
       </div>
 
-    </div>
-  </div>
       <?php
     }
   }
