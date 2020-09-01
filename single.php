@@ -16,7 +16,7 @@
         <?php the_content(); ?>
 
       <div class="pagination-single">
-        <?php previous_post_link('%link', 'Previous Post >>');?>
+        <?php previous_post_link('%link', '<< Previous Post');?>
       </div>
 
       <div class="pagination-single">
